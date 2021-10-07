@@ -6,6 +6,6 @@ public class Key : Item
 {
     public override void UseItem()
     {
-        
+        // 아직 안만듬
     }
 }

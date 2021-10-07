@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Janitor : MonoBehaviour
+public class Janitor : MonoBehaviour // 수위코드
 {
     public float viewRange = 10f;
     [Range(0,360)]

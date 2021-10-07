@@ -4,12 +4,10 @@ using UnityEngine;
 
 public class EnergyDrink : Item
 {
-
     public override void UseItem()
     {
-        // 플레이어 hp 1칸 회복 이미 풀피면 아이템만 소모
-        // 연타해도 hp 여러게 차지 않게
-        if (Player.Instance.health < Player.Instance.maxHp) // 아잉
+        // 연타해도 hp 여러게 차지 않게 만들어야함
+        if (Player.Instance.health < Player.Instance.maxHp)
         {
             Player.Instance.health++;
         }
