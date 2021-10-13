@@ -10,5 +10,4 @@ public class TailbanHood : Item
     {
         // 탈레반 소환
     }
-
 }
