@@ -6,12 +6,17 @@ public class EggCat : Item
 {
     public GameObject Cat;
 
-
     public override void UseItem()
     {
-        // 고양이 소환
         Instantiate(Cat, transform.position, Quaternion.identity);
+        Destroy(gameObject);
+    }
 
-        Destroy(this);
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.transform.CompareTag("GROUND"))
+        {
+            UseItem();
+        }
     }
 }
