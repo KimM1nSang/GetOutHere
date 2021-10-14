@@ -15,7 +15,7 @@ using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using System;
 
-public class LaserPointer : OVRCursor
+public class LaserPointer : OVRCursor 
 {
     public enum LaserBeamBehavior
     {
@@ -27,7 +27,9 @@ public class LaserPointer : OVRCursor
     public GameObject cursorVisual;
     public float maxLength = 10.0f;
 
+    [SerializeField]
     private LaserBeamBehavior _laserBeamBehavior;
+
     bool m_restoreOnInputAcquired = false;
 
     public LaserBeamBehavior laserBeamBehavior
