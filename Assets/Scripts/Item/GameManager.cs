@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    private GameManager instance;
-    public  GameManager Instance;
+    public static GameManager instance;
+
+    public Transform playerTR;
 
     private void Awake()
     {
@@ -24,7 +25,11 @@ public class GameManager : MonoBehaviour
         instance = null;
     }
 
-    
+    public static Transform GetPlayer()
+    {
+        //Debug.Log(instance.playerTR.transform.position);
+        return instance.playerTR;
+    }
 
 
 }
