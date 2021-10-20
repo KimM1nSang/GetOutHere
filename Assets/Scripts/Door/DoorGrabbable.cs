@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class DoorGrabbable : OVRGrabbable
 {
+    //손에 Hands layer붙여야 열림
     public Transform handler;
 
     public override void GrabEnd(Vector3 linearVelocity, Vector3 angularVelocity)
