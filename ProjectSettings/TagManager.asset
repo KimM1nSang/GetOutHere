@@ -3,12 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-<<<<<<< HEAD
-=======
-  - GROUND
->>>>>>> 5ca1a91e384539e15c420656521a151242e74718
-  - PLAYER
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -16,13 +11,8 @@ TagManager:
   - 
   - Water
   - UI
-<<<<<<< HEAD
-  - PLAYER
   - 
-=======
-  - Hands
-  - GrabbableHandler
->>>>>>> 5ca1a91e384539e15c420656521a151242e74718
+  - 
   - 
   - 
   - 
