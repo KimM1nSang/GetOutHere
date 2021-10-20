@@ -16,8 +16,11 @@ public class Cat : MonoBehaviour
     }
 
 
-    private void OnTriggerEnter(Collider other)
+    private void OnCollisionEnter(Collision collision)
     {
-        isMove = false;
+        if (!collision.transform.CompareTag("GROUND"))
+        {
+            isMove = false;
+        }
     }
 }

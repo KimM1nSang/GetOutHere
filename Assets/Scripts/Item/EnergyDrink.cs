@@ -12,8 +12,7 @@ public class EnergyDrink : Item
             Player.Instance.health++;
         }
 
-        // 사용하면 아이템 삭제
-        Destroy(this, 0.5f);
+        Destroy(gameObject);
     }
 
 

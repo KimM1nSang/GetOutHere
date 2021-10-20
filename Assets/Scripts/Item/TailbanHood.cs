@@ -4,10 +4,8 @@ using UnityEngine;
 
 public class TailbanHood : Item
 {
-    public GameObject tailban;
-
     public override void UseItem()
     {
-        // 탈레반 소환
+        // 아저씨 스턴
     }
 }

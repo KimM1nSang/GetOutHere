@@ -29,9 +29,4 @@ using UnityEngine;
 public abstract class Item : MonoBehaviour
 {
     public abstract void UseItem();
-
-    void Start()
-    {
-        
-    }
 }
