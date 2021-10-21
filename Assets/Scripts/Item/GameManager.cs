@@ -4,15 +4,10 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-<<<<<<< HEAD
+    public Transform playerTR;
+    #region 싱글톤
     public static GameManager instance;
 
-    public Transform playerTR;
-=======
-    #region 싱글톤
-    private GameManager instance;
-    public  GameManager Instance;
->>>>>>> 5ca1a91e384539e15c420656521a151242e74718
 
     private void Awake()
     {
@@ -25,12 +20,12 @@ public class GameManager : MonoBehaviour
             instance = this;
         }
     }
+    #endregion
 
     private void OnDestroy()
     {
         instance = null;
     }
-<<<<<<< HEAD
 
     public static Transform GetPlayer()
     {
@@ -39,7 +34,4 @@ public class GameManager : MonoBehaviour
     }
 
 
-=======
-    #endregion
->>>>>>> 5ca1a91e384539e15c420656521a151242e74718
 }
