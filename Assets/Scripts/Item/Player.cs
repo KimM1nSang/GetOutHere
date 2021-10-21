@@ -28,14 +28,4 @@ public class Player : MonoBehaviour
 
     public int health = 3;
     public int maxHp = 3;
-
-    private void Start()
-    {
-        
-    }
-
-    private void Update()
-    {
-
-    }
 }

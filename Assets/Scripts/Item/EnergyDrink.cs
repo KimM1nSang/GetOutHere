@@ -4,17 +4,27 @@ using UnityEngine;
 
 public class EnergyDrink : Item
 {
+    private bool isUsed = true;
+
     public override void UseItem()
     {
-        // 연타해도 hp 여러게 차지 않게 만들어야함
-        if (Player.Instance.health < Player.Instance.maxHp)
+        if (isUsed)
         {
-            Player.Instance.health++;
+            if (Player.Instance.health < Player.Instance.maxHp)
+            {
+                Player.Instance.health++;
+            }
+            isUsed = false;
         }
 
         Destroy(gameObject);
     }
 
-
-
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("PLAYER") && collision.transform.position.y < transform.position.y)
+        {
+            UseItem();
+        }
+    }
 }
