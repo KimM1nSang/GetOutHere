@@ -1632,7 +1632,7 @@ HingeJoint:
   m_Anchor: {x: -1.3, y: -1.62, z: 0}
   m_Axis: {x: 1, y: 90, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 26.923187, y: -5.210207, z: -103.62749}
+  m_ConnectedAnchor: {x: 26.912733, y: -0.78832626, z: 1.7898221}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -2565,7 +2565,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &916777182
 GameObject:
@@ -3855,7 +3855,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4240109998300524, guid: 405988af1bd38ee4fb92e86058b6c926, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4240109998300524, guid: 405988af1bd38ee4fb92e86058b6c926, type: 3}
       propertyPath: m_LocalScale.x
@@ -4001,7 +4001,7 @@ HingeJoint:
   m_Anchor: {x: -1.3, y: -1.62, z: 0}
   m_Axis: {x: 1, y: 90, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 26.923195, y: -5.210207, z: -87.501175}
+  m_ConnectedAnchor: {x: 26.91274, y: -0.78832626, z: 17.916136}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -6368,7 +6368,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 608970233954384722, guid: ae4df37818baa6146b62acbc2b2a1c4b, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 608970233954384722, guid: ae4df37818baa6146b62acbc2b2a1c4b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8147,7 +8147,7 @@ HingeJoint:
   m_Anchor: {x: -1.3, y: -1.62, z: 0}
   m_Axis: {x: 1, y: 90, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 30.48053, y: -5.039468, z: -35.89991}
+  m_ConnectedAnchor: {x: 30.470076, y: -0.6175871, z: 69.5174}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -8539,7 +8539,7 @@ HingeJoint:
   m_Anchor: {x: -1.3, y: -1.62, z: 0}
   m_Axis: {x: 1, y: 90, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 25.051847, y: -5.039468, z: -40.739937}
+  m_ConnectedAnchor: {x: 25.041393, y: -0.6175871, z: 64.677376}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -9024,7 +9024,7 @@ Transform:
   - {fileID: 857494519}
   - {fileID: 654704740}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1494325125331682107
 GameObject:
@@ -9463,7 +9463,7 @@ HingeJoint:
   m_Anchor: {x: -1.3, y: -1.62, z: 0}
   m_Axis: {x: 1, y: 90, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 27.091404, y: -5.0394683, z: -29.496902}
+  m_ConnectedAnchor: {x: 27.08095, y: -0.61758757, z: 75.92041}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -11490,7 +11490,7 @@ HingeJoint:
   m_Anchor: {x: -1.3, y: -1.62, z: 0}
   m_Axis: {x: 1, y: 90, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 30.48053, y: -5.039468, z: -29.496902}
+  m_ConnectedAnchor: {x: 30.470076, y: -0.6175871, z: 75.92041}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -12587,7 +12587,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2946256720128790263, guid: f9d35ff9b42fb0848a4bc73e52f582c6, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2946256720128790263, guid: f9d35ff9b42fb0848a4bc73e52f582c6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14105,6 +14105,63 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 789382164489415886}
   m_Mesh: {fileID: 4300000, guid: 02ba308bed5cd924d888de16aa13d884, type: 3}
+--- !u!1001 &3503221909360153687
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3969721556173845113, guid: ac71811fcf0300847aa2960588696b1f, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3969721556173845113, guid: ac71811fcf0300847aa2960588696b1f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8.924115
+      objectReference: {fileID: 0}
+    - target: {fileID: 3969721556173845113, guid: ac71811fcf0300847aa2960588696b1f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 9.904299
+      objectReference: {fileID: 0}
+    - target: {fileID: 3969721556173845113, guid: ac71811fcf0300847aa2960588696b1f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 67.28661
+      objectReference: {fileID: 0}
+    - target: {fileID: 3969721556173845113, guid: ac71811fcf0300847aa2960588696b1f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3969721556173845113, guid: ac71811fcf0300847aa2960588696b1f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3969721556173845113, guid: ac71811fcf0300847aa2960588696b1f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3969721556173845113, guid: ac71811fcf0300847aa2960588696b1f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3969721556173845113, guid: ac71811fcf0300847aa2960588696b1f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3969721556173845113, guid: ac71811fcf0300847aa2960588696b1f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3969721556173845113, guid: ac71811fcf0300847aa2960588696b1f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4349518558615808195, guid: ac71811fcf0300847aa2960588696b1f, type: 3}
+      propertyPath: m_Name
+      value: Cat
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ac71811fcf0300847aa2960588696b1f, type: 3}
 --- !u!33 &3511229169978547446
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -17475,7 +17532,7 @@ HingeJoint:
   m_Anchor: {x: -1.3, y: -1.62, z: 0}
   m_Axis: {x: 1, y: 90, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 30.48053, y: -5.039468, z: -32.698402}
+  m_ConnectedAnchor: {x: 30.470076, y: -0.6175871, z: 72.71891}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -18261,7 +18318,7 @@ HingeJoint:
   m_Anchor: {x: -1.3, y: -1.62, z: 0}
   m_Axis: {x: 1, y: 90, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 27.091404, y: -5.0394683, z: -26.295403}
+  m_ConnectedAnchor: {x: 27.08095, y: -0.61758757, z: 79.12191}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -18804,7 +18861,7 @@ HingeJoint:
   m_Anchor: {x: -1.3, y: -1.62, z: 0}
   m_Axis: {x: 1, y: 90, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 27.091404, y: -5.0394683, z: -32.698402}
+  m_ConnectedAnchor: {x: 27.08095, y: -0.61758757, z: 72.71891}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -20389,7 +20446,7 @@ HingeJoint:
   m_Anchor: {x: -1.3, y: -1.62, z: 0}
   m_Axis: {x: 1, y: 90, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 30.48053, y: -5.039468, z: -39.12545}
+  m_ConnectedAnchor: {x: 30.470076, y: -0.6175871, z: 66.29186}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -21174,7 +21231,7 @@ HingeJoint:
   m_Anchor: {x: -1.3, y: -1.62, z: 0}
   m_Axis: {x: 1, y: 90, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 30.48053, y: -5.039468, z: -26.295403}
+  m_ConnectedAnchor: {x: 30.470076, y: -0.6175871, z: 79.12191}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -21754,7 +21811,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7416915439043809515, guid: d695a91705b1d4d469e094cebff61b27, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7416915439043809515, guid: d695a91705b1d4d469e094cebff61b27, type: 3}
       propertyPath: m_LocalPosition.x
