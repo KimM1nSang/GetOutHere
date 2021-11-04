@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Key : Item
 {
@@ -19,6 +20,10 @@ public class Key : Item
         {
             Debug.Log(col);
             UseItem();
+        }
+        else if (col.gameObject.CompareTag("CLEARSTAIR"))
+        {
+            SceneManager.LoadScene("GameClear");
         }
     }
 }

@@ -8,6 +8,6 @@ public class StartScene : MonoBehaviour
 {
     public void OnClickButton()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("1floor");
     }
 }
