@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class EnemyAI : MonoBehaviour
 {
     public enum EnemyState
@@ -127,6 +127,8 @@ public class EnemyAI : MonoBehaviour
                     //anim.SetBool(hashMove, true);
                     break;
                 case EnemyState.ATTACK:
+                    Debug.Log("DEAD");
+                    SceneManager.LoadScene("GameOverScene");
                     moveAgent.Stop();
                     //anim.SetBool(hashMove, false);
                     break;
