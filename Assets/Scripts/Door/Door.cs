@@ -6,7 +6,7 @@ public class Door : MonoBehaviour
 {
     public GameObject doorGrabber;
 
-    public bool isOpen;
+    public bool isOpen = true;
 
     private void Awake()
     {
